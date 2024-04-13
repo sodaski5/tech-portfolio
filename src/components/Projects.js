@@ -12,17 +12,17 @@ export const Projects = () => {
   const projects = [
     {
       title: "X",
-      description: "Social Network Application - Built using React, Next.js, TypeScript, MongoDB",
+      description: "Social Network Application - Built using JavaScript, React, TypeScript, MongoDB",
       imgUrl: projImg1,
     },
     {
       title: "Neuro Tech",
-      description: "Dynamic Dashboard - Built on React, JavaScript, SQLite",
+      description: "Dynamic Dashboard - Built on JavaScript, React, SQLite",
       imgUrl: projImg2,
     },
     {
       title: "Vitual Pizza Shop",
-      description: "Online Pizza shop - Designed using Python, Django, PostgreSQL, Heroku",
+      description: "Online Pizza shop - Designed using Python, Django, PostgreSQL",
       imgUrl: projImg3,
     }
   ];

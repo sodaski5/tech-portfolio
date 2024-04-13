@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sadiq`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Fullstack Developer", "UX/UI Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>2 years of experience in Software Engineering with hands-on professional experience building large-scale enterprise applications, web applications, and PV testing.<br></br>Proficient in Full-stack development using Python, Django, Angular, JavaScript, Next.js, React, TypeScript.<br></br>Experience in cloud computing working with AWS, GCP, Docker, Kubernetes and related
+                  <p>2 years of experience in Software Engineering with hands-on professional experience building large-scale enterprise applications, web applications, and PV testing.<br></br>Proficient in Full-stack development using Python, JavaScript, TypeScript, Next.js, React, and Django.<br></br>Experience in cloud computing working with AWS, GCP, Docker, Kubernetes and related
 technologies, and an excellent understating of CI/CD workflows.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
